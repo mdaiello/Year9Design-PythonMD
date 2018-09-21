@@ -8,7 +8,7 @@ print("****Slope Calculator****")
 #integers - int
 
 
-os.system("say Hello welcome to my slope calculator")
+os.system("say Hello welcome to my personal slope calculator")
 #Input - CHANGE
 x1 = input("Input x1: ")
 x1 = int(x1) #casting
@@ -26,7 +26,12 @@ y2 = int(y2)
 rise = x2 - x1
 run = y2 - y1
 
-fSlope = rise/run #real numbers are called float
+if run  == 0:
+	fSlope = "Unedefined"
+elif run == 1:
+	print("hi")
+else:
+	fSlope = rise/run #real numbers are called float
 
 #Three types to consider
 #Strings - Store collections of characters
