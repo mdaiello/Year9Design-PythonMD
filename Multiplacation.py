@@ -1,0 +1,6 @@
+#print("enter a number: ")
+num = input("enter a number: ")
+num2 = input("enter a number: ")
+x = int(num)
+y = int(num2)
+print(x * y)
