@@ -47,8 +47,6 @@ output = tk.Text(root, width=50, height=10, borderwidth=3, relief=tk.GROOVE)
 output.pack()
 output.config(state="disabled")
 
-print = "Personal Cylinder Calculator"
-import = "Personal Cylinder Calculator"
 
 
 

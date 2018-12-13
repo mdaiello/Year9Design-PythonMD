@@ -3,7 +3,7 @@ input ("Hello and Welcome to your personal expense manager")
 print = ("Would you like to create some finacial goals?")
 
 x1 = input("Expense 1: ")
-x1 = int(x1) #casting
+x1 = int(x1)
 
 y1 = input("Expense 2: ")
 y1 = int(y1)
@@ -73,4 +73,7 @@ root = tk.Tk()
 
 
 root.mainloop()
+
+
+
 

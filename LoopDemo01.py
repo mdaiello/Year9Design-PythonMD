@@ -11,7 +11,7 @@ print("3")
 print("4")
 print("************")
 
-#This is a counted loop.  If you want to think about is you could say
+#This is a coutalnted loop.  If you want to think about is you could say
 #count, check, change
 # i = 0, 0 < 5 TRUE - RUN LOOP
 # i = 1, 1 < 5, TRUE - RUN LOOP
